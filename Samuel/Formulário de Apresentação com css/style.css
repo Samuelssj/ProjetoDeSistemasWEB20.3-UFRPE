@@ -1,0 +1,28 @@
+
+* {
+    margin: 1%;
+    padding: 0;
+    font-family: 'Lexend Peta', sans-serif;
+  
+}
+
+body{
+
+    background-color: bisque;
+}
+
+.botao{
+
+    cursor: pointer;
+    border: 2px solid darksalmon;
+    background-color: sandybrown;
+    color: white;
+    font: bold;
+    font-size: large;
+    margin-left:  5%;
+}
+
+.titulo{
+    color: darkblue;
+  padding-left: 50%;
+}
