@@ -1,0 +1,108 @@
+*{
+   
+    
+}
+
+body{
+    background-image: url(Img/imagem.jpg);
+    
+}
+
+.logo{
+    color: red;
+    font-size: 60px;
+    font: bold;
+    margin-left: 5%;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.sombra{
+    background-color: rgba(0, 0, 0, 90%);
+    margin-left: 30%;
+    margin-right: 35%;  
+    height: 500px;
+    padding-top: 3%;
+    padding-left: 1%;
+}
+.formulario{
+display: block;
+margin-left: 12%;
+margin-right: 30%;
+width: 380px;
+
+}
+
+.subtitulo{
+    color: white;
+    margin-left: 30%;
+    font: bold;
+}
+.textfield{
+    height: 40px;
+    width: 315px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+  
+}
+
+
+.butao{
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font: bolder;
+    margin-right: 50px;
+}
+
+.chec{
+   display: inline-block;
+   margin-top: 15px;
+   color:black;
+   background-color: gray;
+}
+p{
+    color: gray;
+    font-size: 18px;
+    display: inline;
+    margin-right: 30px;
+    
+
+}
+a{
+    color: gray;
+    font-size: 18px;
+    display: inline;
+    margin-right: 50px;
+}
+
+.faceico{
+    width: 25px;
+    height: 25px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.facetxt{
+    cursor: pointer;
+}
+
+.concetarface{
+ 
+   color: white;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 90%);
+    height: 300px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.infofooter{
+    margin-top: 25px;
+}
