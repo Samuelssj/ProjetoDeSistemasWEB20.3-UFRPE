@@ -1,0 +1,50 @@
+body{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+}
+.formulario{
+    display: block;
+    margin-left: 12%;
+    margin-right: 30%;
+    width: 380px;
+
+}
+.contender{
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+.textfield{
+    height: 40px;
+    width: 315px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.bt{
+    color: yellow;
+    background-color: green;
+    height: 40px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+   margin-left: 45px;
+}
+
+.texto{
+    color: white;
+   size: 50px;
+
+}
