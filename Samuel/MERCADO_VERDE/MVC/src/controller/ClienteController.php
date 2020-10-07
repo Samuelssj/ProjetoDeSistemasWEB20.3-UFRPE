@@ -13,7 +13,7 @@ class ClienteController implements interfaceController
     {
         $clienteDAO = new ClienteDAO();
         $dados = $clienteDAO->findAll();
-        require __DIR__ . "/../view/disciplinas/listar.php";
+//        require __DIR__ . "/../view/disciplinas/listar.php";
     }
 
     function view($id)
@@ -22,7 +22,7 @@ class ClienteController implements interfaceController
         $clienteDAO = new ClienteDAO();
         $dado = $clienteDAO>findById($id);
         if($dado != null){
-            require __DIR__ . "/../view/disciplinas/exibir.php";
+//            require __DIR__ . "/../view/disciplinas/exibir.php";
         }else{
             echo "Error 404";
         }
@@ -34,7 +34,7 @@ class ClienteController implements interfaceController
         $clienteDAO = new ClienteDAO();
         $dado = $clienteDAO->findById($id);
         if($dado != null){
-            require __DIR__ . "/../view/disciplinas/editar.php";
+//            require __DIR__ . "/../view/disciplinas/editar.php";
         }else{
             echo "Error 404";
         }
@@ -43,7 +43,7 @@ class ClienteController implements interfaceController
     function create()
     {
         // TODO: Implement create() method.
-        require __DIR__ . "/../view/disciplinas/criar.php";
+
     }
 
     function store()
@@ -62,7 +62,7 @@ class ClienteController implements interfaceController
         $clienteVO= new Cliente(null, $_POST['name'],$_POST['sobrenome'], $_POST['nascimento'],$_POST['email'],$_POST['senha'], 1);
         $clienteDao->update($id, $clienteVO);
         $_SESSION['message'] = "Atualizado com sucesso";
-        header("Location: /discipline");
+        header("Location: /cliente");
     }
 
     function delete($id)
@@ -71,6 +71,6 @@ class ClienteController implements interfaceController
         $clienteDao = new ClienteDAO();
         $clienteDao->delete($id);
         $_SESSION['message'] = "Excluído com sucesso";
-        header("Location: /discipline");
+        header("Location: /cliente");
     }
 }

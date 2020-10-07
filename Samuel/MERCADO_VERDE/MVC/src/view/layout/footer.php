@@ -1,4 +1,27 @@
 
+<div class="footer " id="footer">
+
+
+      <h1 class="itemfooter">Ficou interessado?</h1>
+    <button class="btajuda" type="submit">"Precisa de ajuda?"</button>
+      <h2 class="itemfooter2">Que tal ter mais saúde?</h2>
+
+<!---->
+<!--    <div class="sombra">-->
+<!--        <a href="http://">Perguntas frequentes</a>-->
+<!--        <a href="http://">Centro de ajuda</a>-->
+<!--        <a href="http://"> Termos de uso</a>-->
+<!--        <a href="http://">Privacidade</a>-->
+<!--        <a href="http://">Preferências de cookies</a>-->
+<!--        <a href="http://">Informações corporativas</a>-->
+<!--    </div>-->
+
+
+</div>
+
+
+
+
 <div id="modal-login" class="modal-container">
     <div class="modal">
         <button class="fechar" id="fechar-modal">x</button>
@@ -48,11 +71,6 @@
     </div>
 </div>
 
-
-<div>
-    <h2>Rodapé</h2>
-
-</div>
 
 
 <script src="js/MeuJs.js"></script>

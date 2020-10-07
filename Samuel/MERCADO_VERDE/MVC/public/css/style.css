@@ -15,7 +15,7 @@
 .logo {
     float: left;
     margin-left: 5%;
-    width:300px;
+    width: 300px;
     height: 90px;
 
 }
@@ -69,9 +69,6 @@ body {
 
     font-size: 1.5em;
     font-weight: bold;
-/ / position: absolute;
-/ / left: 50 %;
-/ / margin-left: - 110 px;
 
 
 }
@@ -101,6 +98,7 @@ a:hover {
 
 }
 
+
 .modal-container {
     width: 100vw;
     height: 100vh;
@@ -128,20 +126,21 @@ a:hover {
 
 
 }
-@keyframes modal  {
-    from{
+
+@keyframes modal {
+    from {
         opacity: 0;
-        transform: translate3d(0,-60px,0);
+        transform: translate3d(0, -60px, 0);
 
     }
-    to{
+    to {
         opacity: 1;
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
 
     }
 }
 
-.mostrar .modal{
+.mostrar .modal {
     animation: modal .3s;
 }
 
@@ -160,22 +159,23 @@ a:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
 }
 
-.modal-container.mostrar{
+.modal-container.mostrar {
     display: flex;
 }
 
-#titulo-modal{
-   margin-left: 35%;
+#titulo-modal {
+    margin-left: 35%;
     color: green;
 }
-#subtitulo{
+
+#subtitulo {
     font-size: large;
     color: forestgreen;
 }
-.input{
+
+.input {
     border-width: 6px;
-    border-color: forestgreen;
-    border:solid forestgreen;
+    border: solid forestgreen;
     font-size: 22px;
     font-weight: normal;
     color: saddlebrown;
@@ -183,7 +183,7 @@ a:hover {
     margin-top: 5px;
 }
 
-.entarLog{
+.entarLog {
     font-size: 25px;
     cursor: pointer;
     border: 2px solid saddlebrown;
@@ -193,10 +193,96 @@ a:hover {
     margin-left: 40%;
 }
 
-.info{
+.info {
     color: green;
     size: 28px;
     font-family: 'Ranchers', cursive;
 }
-#modal-login
+
+
+.divLogado {
+    display: inline-block;
+    margin-top: 1%;
+    padding-left: 10%;
+
+}
+
+.dadosLog {
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.userBT {
+    margin-right: 1%;
+    border-width: 3px;
+    border-color: forestgreen;
+    display: block;
+    background: bisque;
+    font-size: 18px;
+    color: black;
+    margin-botto: 5px;
+    cursor: pointer;
+
+}
+
+.usertx {
+    height: 37px;
+    padding-left: 5px;
+    margin-right: 2%;
+    font-size: 20px;
+    border: 1px solid #a5dcff;
+    border-radius: 8px;
+}
+
+.footer {
+    background-image: url(../imagens/footer.jpg);
+    color: white;
+
+    height: 500px;
+}
+
+.itemfooter {
+    padding-left: 10%;
+    padding-top: 35px;
+
+}
+
+.itemfooter2 {
+    padding-left: 56%;
+
+}
+
+.btajuda {
+    margin-left: 30%;
+
+
+    cursor: pointer;
+    font-size: 40px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+
+
+}
+
+.sombra {
+
+    /*background: linear-gradient(darkseagreen, saddlebrown);*/
+}
+
+
+.cestasprontas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+
+}
+
+.cestasinfo {
+    color: white;
+}
 

@@ -48,9 +48,9 @@ class ClienteDAO implements interfaceClienteDAO
     public function create(Cliente $cliente)
     {
         $link = getConnection();
-        $query = "insert into {$this->table}(name, sobrenome, nascimento, email, senha)values('{$cliente->getName()}','{$cliente->getSobrenome()}','{$cliente->getNascimento()}',''{$cliente->getEmail()}','{$cliente->getSenha()}{$_SESSION['user_id']})";
-        // var_dump($query);
-        //exit(0);
+        $query = "insert into {$this->table}(id ,nome, sobrenome, nascimento, email, password)values('{$cliente->getId()}','{$cliente->getName()}','{$cliente->getSobrenome()}','{$cliente->getNascimento()}','{$cliente->getEmail()}','{$cliente->getSenha()}{$_SESSION['user_id']}')";
+//        var_dump($query);
+//        exit(0);
         $result = $link->query($query);
 
 
@@ -64,7 +64,7 @@ class ClienteDAO implements interfaceClienteDAO
     public function update($id, Cliente $cliente)
     {
         $link = getConnection();
-        $query = "update {$this->table} set name='{$cliente->getName()}', sobrenome='{$$cliente->getSobrenome()}', nascimento={$cliente->getNascimento()} , email={$cliente->getEmail()}, senha={$cliente->getSenha()}where id={$id}";
+        $query = "update {$this->table} set nome='{$cliente->getName()}', sobrenome='{$cliente->getSobrenome()}', nascimento={$cliente->getNascimento()} , email={$cliente->getEmail()}, senha={$cliente->getSenha()}where id={$id}";
 
 
         $result = $link->query($query);
@@ -90,9 +90,9 @@ class ClienteDAO implements interfaceClienteDAO
 
     public function verificarUserSenha($email, $senha)
     {
-        // TODO: Implement verificarUserSenha() method.
+
 //        $senha = md5($senha);
-        // TODO: Implement verifyUserAndPassword() method.
+//         TODO: Implement verifyUserAndPassword() method.
         $link = getConnection();
         $query = "select id, nome, email from {$this->table} where email='{$email}' and password ='{$senha}'";
 

@@ -9,7 +9,7 @@ use MVC\src\controller\ClienteController;
 
 $auth_controller = new ValidarController;
 $cliente_controle = new ClienteController();
-
+$produto_controlle = new \MVC\src\controller\ProdutoController();
 
 $path = "";
 
@@ -39,6 +39,16 @@ switch ($path) {
         }
         break;
 
+    case "/cliente":
+        if($method == "POST") {
+
+            $cliente_controle->store();
+        }
+    case "/cestasprontas":
+        if($method == "GET") {
+            $auth_controller->cestas();
+            break;
+        }
     default:
         if (isset($_SESSION['user'])) {
             switch ($path) {
@@ -46,6 +56,11 @@ switch ($path) {
                     routes($cliente_controle);
                     break;
 
+                case "/produto":
+                    if($method == "GET") {
+                        routes($produto_controlle);
+                        break;
+                    }
                 default:
                     $auth_controller->logado();
                     break;

@@ -19,8 +19,16 @@ class ValidarController
 
     public function logado()
     {
-        echo "tela das logadooo";
-        require __DIR__ . "/../view/layout/TelaLogin.php";
+        require __DIR__ . "/../view/layout/TelaLogado.php";
+    }
+    public function cestas()
+    {
+        require __DIR__ . "/../view/layout/TelaCestas.php";
+    }
+
+    public function cestasLog()
+    {
+        require __DIR__ . "/../view/layout/TelaCestas.php";
     }
 
     public function validaruserpassword()
@@ -44,6 +52,8 @@ class ValidarController
     public function logout()
     {
         unset($_SESSION['user']);
+        unset($_SESSION['id']);
+        unset($_SESSION['user_name']);
         header("Location: /");
     }
 
