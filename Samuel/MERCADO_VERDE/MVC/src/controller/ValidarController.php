@@ -13,7 +13,7 @@ class ValidarController
     {
 //       require __DIR__."/../view/layout/TelaLogin.php";
 ////        require __DIR__."/../view/layout/header.php";
-        require __DIR__ . "/../view/layout/header.php";
+        require __DIR__ . "/../view/layout/headerLogin.php";
         require __DIR__ . "/../view/layout/footer.php";
     }
 

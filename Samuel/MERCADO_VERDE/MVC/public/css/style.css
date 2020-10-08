@@ -22,8 +22,9 @@
 
 body {
 
-    background: linear-gradient(darkseagreen, white);
-/ / background: linear-gradient(white, #d3d8e8);
+/*    background: linear-gradient(darkseagreen, white);*/
+/*/ / background: linear-gradient(white, #d3d8e8);*/
+    background-image: url(../imagens/footer.jpg);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -214,35 +215,44 @@ a:hover {
     flex-direction: row;
     font-size: 15px;
     margin-bottom: 5px;
+    background: linear-gradient(darkseagreen, saddlebrown);
+    padding-left: 15px;
+
 }
 
 .userBT {
-    margin-right: 1%;
-    border-width: 3px;
+    margin-right: 5%;
+    border-width: 5px;
+    border-radius: 15px;
     border-color: forestgreen;
     display: block;
     background: bisque;
     font-size: 18px;
     color: black;
-    margin-botto: 5px;
+    padding-right: 50px;
     cursor: pointer;
+
 
 }
 
 .usertx {
     height: 37px;
+    width: 50%;
     padding-left: 5px;
     margin-right: 2%;
     font-size: 20px;
     border: 1px solid #a5dcff;
     border-radius: 8px;
+    padding-right: 250px;
 }
 
 .footer {
-    background-image: url(../imagens/footer.jpg);
-    color: white;
+    /*background-image: url(../imagens/footer.jpg);*/
+    background: linear-gradient(darkseagreen, white);
 
-    height: 500px;
+    position: relative;
+    min-height: 100%;
+
 }
 
 .itemfooter {
@@ -254,6 +264,9 @@ a:hover {
 .itemfooter2 {
     padding-left: 56%;
 
+}
+.footer1{
+    margin-top: 25%;
 }
 
 .btajuda {
@@ -271,18 +284,33 @@ a:hover {
 
 .sombra {
 
-    /*background: linear-gradient(darkseagreen, saddlebrown);*/
+    background: green;
+
+}
+.sombra a{
+    color: white;
+    margin-left: 15%;
+    margin-top: 2px;
 }
 
 
 .cestasprontas {
     display: flex;
     flex-direction: column;
-    margin-left: 45%;
 
 }
 
+.logocesta{
+    margin-top: 15px;
+    margin-left: 40%;
+    color: white;
+    font-size: 52px;
+}
+
 .cestasinfo {
+   margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
     color: white;
 }
 

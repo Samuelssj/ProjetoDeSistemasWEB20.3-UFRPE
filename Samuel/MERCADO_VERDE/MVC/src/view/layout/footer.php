@@ -1,20 +1,32 @@
 
 <div class="footer " id="footer">
 
+<div class="footer1">
+    <h1 class="itemfooter">Ficou interessado?</h1>
+</div>
+     <div class="footer2">
+         <button class="btajuda" type="submit">"Precisa de ajuda?"</button>
+     </div>
+    <div class="footer3">
+        <h2 class="itemfooter2">Que tal ter mais saúde?</h2>
+    </div>
 
-      <h1 class="itemfooter">Ficou interessado?</h1>
-    <button class="btajuda" type="submit">"Precisa de ajuda?"</button>
-      <h2 class="itemfooter2">Que tal ter mais saúde?</h2>
 
-<!---->
-<!--    <div class="sombra">-->
-<!--        <a href="http://">Perguntas frequentes</a>-->
-<!--        <a href="http://">Centro de ajuda</a>-->
-<!--        <a href="http://"> Termos de uso</a>-->
-<!--        <a href="http://">Privacidade</a>-->
-<!--        <a href="http://">Preferências de cookies</a>-->
-<!--        <a href="http://">Informações corporativas</a>-->
-<!--    </div>-->
+
+
+    <div class="sombra">
+        <br>
+        <a href="http://">Perguntas frequentes</a>
+        <a href="http://">Centro de ajuda</a>
+        <a href="http://"> Termos de uso</a>
+        <a href="http://">Privacidade</a>
+        <br>
+        <br>
+
+
+
+
+    </div>
 
 
 </div>
